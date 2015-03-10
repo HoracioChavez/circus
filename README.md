@@ -9,6 +9,7 @@ Anmiation Goals:
 + [ ] Balloons. 
 + [ ] Runing kids.
 + [ ] Big Top. The circus.
++ [ ] Candle.
 
 Features:
 + Multiple borwser compatibility.
