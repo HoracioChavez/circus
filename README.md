@@ -4,7 +4,7 @@ An experimental and simple animation with CSS3 (a.k.a. my baby's invitation b-da
 
 Anmiation Goals: 
 
-+ [ ] Clouds.
++ [x] Clouds.
 + [ ] Sunrise.
 + [ ] Balloons. 
 + [ ] Runing kids.
