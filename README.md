@@ -10,8 +10,11 @@ Anmiation Goals:
 + [ ] Runing kids.
 + [ ] Big Top. The circus.
 
-Tech:
+Features:
 + Multiple borwser compatibility.
++ Responsive desing.
+
+Tech:
 + CSS3 Animation. 
 + @-keyframes. 
-+ Responsive desing.
++ Rails. A super simple app to send custom invitations.
