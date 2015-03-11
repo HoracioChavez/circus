@@ -11,7 +11,7 @@ The anmiations are:
 + [x] Big Top. The circus.
 + [ ] Candle.
 + [ ] Landscape.
-+ [ ] Fair wheel.
++ [x] Fair wheel.
 + [ ] Carousel. 
 
 Features:
