@@ -6,13 +6,13 @@ The anmiations are:
 
 + [x] Clouds.
 + [ ] Sunrise.
-+ [ ] Balloons. 
++ [x] Balloons. 
 + [ ] Kids running.
 + [x] Big Top. The circus.
 + [ ] Candle.
-+ [ ] Landscape.
++ [x] Landscape.
 + [x] Fair wheel.
-+ [ ] Carousel. 
++ [x] Carousel. 
 
 Features:
 + Multiple borwser compatibility.
