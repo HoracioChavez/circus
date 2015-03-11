@@ -7,9 +7,12 @@ Anmiation Goals:
 + [x] Clouds.
 + [ ] Sunrise.
 + [ ] Balloons. 
-+ [ ] Runing kids.
-+ [ ] Big Top. The circus.
++ [ ] Kids running.
++ [x] Big Top. The circus.
 + [ ] Candle.
++ [ ] Landscape.
++ [ ] Fair wheel.
++ [ ] Carousel. 
 
 Features:
 + Multiple borwser compatibility.
