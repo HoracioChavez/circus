@@ -2,7 +2,7 @@
 
 An experimental and simple animation with CSS3 (a.k.a. my baby's invitation b-day party).
 
-Anmiation Goals: 
+The anmiations are: 
 
 + [x] Clouds.
 + [ ] Sunrise.
