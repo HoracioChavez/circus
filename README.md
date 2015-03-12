@@ -22,3 +22,7 @@ Tech:
 + CSS3 Animation. 
 + @-keyframes. 
 + Rails. A super simple app to send custom invitations.
+
+---
+
+WORK IN PROGRESS
