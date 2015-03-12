@@ -11,14 +11,14 @@ An experimental and simple animation with CSS3 (a.k.a. my baby's b-day party inv
 The anmiations are: 
 
 + [x] Clouds.
-+ [ ] Sunrise.
 + [x] Balloons. 
-+ [ ] Kids running.
 + [x] Big Top. The circus.
-+ [ ] Candle.
 + [x] Landscape.
 + [x] Fair wheel.
 + [x] Carousel. 
++ [ ] Night sky. 
++ [ ] Sunrise.
++ [ ] Airplane with messages. 
 
 Features:
 + Multiple borwser compatibility.
@@ -27,5 +27,7 @@ Features:
 Tech:
 + CSS3 Animation. 
 + @-keyframes. 
+
+Possible extension: 
 + Rails. A super simple app to send custom invitations.
 
