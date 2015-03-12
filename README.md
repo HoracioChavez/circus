@@ -1,16 +1,24 @@
 # The Circus.
 
-An experimental and simple animation with CSS3.  
+An experimental and simple animation with CSS3 (a.k.a. my baby's invitation b-day party).
 
-Goals: 
+The anmiations are: 
 
-+ [ ] Clouds.
++ [x] Clouds.
 + [ ] Sunrise.
-+ [ ] Balloons. 
-+ [ ] Runing kids.
-+ [ ] Big Top. The circus.
++ [x] Balloons. 
++ [ ] Kids running.
++ [x] Big Top. The circus.
++ [ ] Candle.
++ [x] Landscape.
++ [x] Fair wheel.
++ [x] Carousel. 
+
+Features:
++ Multiple borwser compatibility.
++ Responsive desing.
 
 Tech:
-+ Multiple borwser compatibility.
 + CSS3 Animation. 
-+ Keyframes. 
++ @-keyframes. 
++ Rails. A super simple app to send custom invitations.
