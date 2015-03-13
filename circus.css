@@ -12,20 +12,6 @@
 *{ margin: 0; padding: 0}
 body {
 }
-.airplane-01 {
-  height: 160px;
-  background-image: url('images/airplane-01-60.png');
-  background-position: center left;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 30;
-  float: left;
-  margin-top: 1700px;
-
-  -webkit-animation: airplane-01 15s linear ;
-  -moz-animation: airplane-01 15s linear ;
-  -o-animation: airplane-01 15s linear ;
-}
 .clown {
   width: 300px;
   height: 400px;
@@ -623,16 +609,38 @@ body {
   0% {margin-left: -50%;}
   100% {margin-left: 100%;}
 }
+.airplane-01 {
+  height: 100px;
+  background-image: url('images/airplane_long_banner_100.png');
+  background-position: center left;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+  float: left;
+  clear: right;
+  margin-top: 2400px;
+
+  -webkit-animation: airplane-01 25s linear infinite;
+  -moz-animation:    airplane-01 25s linear infinite;
+  -o-animation:      airplane-01 25s linear infinite;
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+ .airplane-01 {
+  margin-top: 3540px;
+  -webkit-animation: airplane-01 20s linear infinite;
+  -moz-animation:    airplane-01 20s linear infinite;
+  -o-animation:      airplane-01 20s linear infinite;
+ } 
+}
 @-webkit-keyframes airplane-01 {
-  0%   {margin-left:  100%; width:   0%;}
-  50%  {margin-left:    0%; width: 100%;}
-  100% {margin-left: -100%; width:  100%;}
+  10%  {margin-left:   100%; width:   0%;}
+  100% {margin-left:  -200%; width: 300%;}
 }
 @-moz-keyframes airplane-01 {
-  0% {margin-left: -50%;}
-  100% {margin-left: 100%;}
+  10%  {margin-left:   100%; width:   0%;}
+  100% {margin-left:  -400%; width: 500%;}
 }
 @-o-keyframes airplane-01 {
-  0% {margin-left: -50%;}
-  100% {margin-left: 100%;}
+  10%  {margin-left:   100%; width:   0%;}
+  100% {margin-left:  -400%; width: 500%;}
 }
