@@ -6,7 +6,7 @@ Exploring animation with CSS3 (a.k.a. my baby's b-day party invitation).
 )
 
 **This is work in progress.**   
-Working on thousand tiny details. 
+Working on a thousand tiny details. 
 
 
 The anmiations are: 
