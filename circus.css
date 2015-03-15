@@ -1,3 +1,20 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
 /* ------- THANKS OPEN SOURCE COMMUNITY! ------- */
 /* http://stackoverflow.com/questions/15354772/how-can-i-change-the-pivot-point-of-this-flip-animation */
 /* http://thecodeplayer.com/walkthrough/pure-css3-animated-clouds-background */
@@ -8,40 +25,8 @@
 /* A lot of code repetition */
 /* For re-usability, some classes could live in different files */
 
-
 *{ margin: 0; padding: 0}
 body {
-}
-.clown {
-  width: 300px;
-  height: 400px;
-  float: right;
-  position: relative;
-  z-index: 5;
-  background-image: url('images/clown.png');
-  background-repeat: no-repeat;
-  margin-top: -470px;
-}
-.airplane {
-  width: 120px; height: 150px;
-  background-image: url('images/airplane.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 20;
-  float: left;
-  margin-top: 1600px;
-
-  -webkit-animation: airplane 18s linear infinite;
-  -moz-animation: airplane 18s linear infinite;
-  -o-animation: airplane 18s linear infinite;
-
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
 }
 .village {
   width: 100%;
@@ -65,7 +50,7 @@ body {
 .stars {
   width: 100%;
   height: 120vh;
-  background-image: url('images/stars.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/010/original/stars.png?1426401358');
   position: absolute;
   z-index: 100;
   opacity: .6
@@ -73,7 +58,7 @@ body {
 #big_top {
   width: 60%;
   height: 90%;
-  background-image: url('images/circus.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/011/original/circus.png?1426401422');
   background-size:contain;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -81,12 +66,6 @@ body {
   z-index: -6;
   right: -35%;
   margin-top: -400px;
-}
-.landscape {
-  width: 100%;
-  height: 20%;
-  position: fixed;
-  z-index: -9;
 }
 .road {
   width: 100%;
@@ -104,15 +83,6 @@ body {
   background: linear-gradient(to bottom,  rgba(133,196,15,1) 6%,rgba(92,119,9,1) 61%,rgba(79,96,7,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85c40f', endColorstr='#4f6007',GradientType=0 );
 }
-.gradient_landscape {
-  background: #6cad22;
-  background: -moz-linear-gradient(top,  #6cad22 0%, #36961c 35%, #147f3d 66%, #5b7c67 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6cad22), color-stop(35%,#36961c), color-stop(66%,#147f3d), color-stop(100%,#5b7c67));
-  background: -webkit-linear-gradient(top,  #6cad22 0%,#36961c 35%,#147f3d 66%,#5b7c67 100%);
-  background: -o-linear-gradient(top,  #6cad22 0%,#36961c 35%,#147f3d 66%,#5b7c67 100%);
-  background: -ms-linear-gradient(top,  #6cad22 0%,#36961c 35%,#147f3d 66%,#5b7c67 100%);
-  background: linear-gradient(to bottom,  #6cad22 0%,#36961c 35%,#147f3d 66%,#5b7c67 100%);
-}
 .bush {
   width: 100%;
   height: 100PX;
@@ -121,7 +91,7 @@ body {
   bottom:0;
   z-index: 4;
   float: left;
-  background-image: url('images/bushes2.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/012/original/bushes2.png?1426401494');
   background-size: fill;
   background-repeat: repeat-x;
 }
@@ -132,7 +102,7 @@ body {
   margin-top: -40vh;
   position: relative;
   z-index: -7;
-  background-image: url('images/back.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/013/original/back.png?1426401558');
   background-size: cover;
   background-repeat: repeat-x;
 }
@@ -144,7 +114,7 @@ body {
   padding-right: 22%;
   position: relative;
   z-index: -6;
-  background-image: url('images/villa_02.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/014/original/villa_02.png?1426401620');
   background-size: contain;
   background-repeat: repeat-x;
   opacity: .5;
@@ -161,7 +131,7 @@ body {
   margin-left: -30%;
   position: relative;
   z-index: -2;
-  background-image: url('images/wheel.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/015/original/wheel.png?1426401690');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -177,32 +147,9 @@ body {
   margin-left:-6%;
   position: relative;
   z-index: -6;
-  background-image: url('images/wheel_base.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/016/original/wheel_base.png?1426401728');
   background-size: contain;
   opacity: .7;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.ball {
-  width: 4%;
-  height: 4%;
-  margin-top:4vh;
-  position: fixed;
-  z-index: -6;
-  background-image: url('images/ball.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.elephant {
-  width: 9%;
-  height: 9%;
-  margin-top:-3vh;  
-  margin-left: -2%;
-  position: fixed;
-  z-index: -4;
-  background-image: url('images/elephant.png');
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -211,7 +158,7 @@ body {
   height: 280px;
   margin-left: 28%;
   margin-top: -410px;
-  background-image: url('images/carousel.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/017/original/carousel.png?1426401772');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -227,7 +174,7 @@ body {
   position: relative;
   z-index: 1;
   float: left;
-  background-image: url('images/carousel_base.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/018/original/carousel_base.png?1426401803');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -238,7 +185,7 @@ body {
   margin-left: 30%;
   position: relative;
   z-index: 2;
-  background-image: url('images/carousel_horse_green.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/019/original/carousel_horse_green.png?1426401884');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -253,7 +200,7 @@ body {
   margin-left: 33%;
   position: relative;
   z-index: 2;
-  background-image: url('images/carousel_horse_orange.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/020/original/carousel_horse_orange.png?1426401940');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -268,7 +215,7 @@ body {
   margin-left: 36%;
   position: relative;
   z-index: 2;
-  background-image: url('images/carousel_horse_brown.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/021/original/carousel_horse_brown.png?1426401964');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -277,12 +224,27 @@ body {
   -moz-animation: up_down 3s linear infinite;
   -o-animation: up_down 3s linear infinite;
 }
+@-webkit-keyframes up_down {
+  0%   {margin-top: -330px;}
+  50%  {margin-top: -280px;}
+  100% {margin-top: -330px;}
+}
+@-moz-keyframes up_down {
+  0%   {margin-top: -330px;}
+  50%  {margin-top: -280px;}
+  100% {margin-top: -330px;}
+}
+@-o-keyframes up_down {
+  0%   {margin-top: -330px;}
+  50%  {margin-top: -280px;}
+  100% {margin-top: -330px;}
+}
 .ballon_01 {
   width: 5%;
   height: 15%;
   position: absolute;
   z-index: -60;
-  background-image: url('images/hot_balloon_01.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/022/original/hot_balloon_01.png?1426402005');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -292,105 +254,72 @@ body {
   -moz-animation: hot_ballon 20s linear infinite;
   -o-animation: hot_ballon 20s linear infinite;
 }
-
+@-webkit-keyframes hot_ballon {
+  0%   {bottom:200px; margin-bottom: -200px; margin-left: -30%}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  30%}
+  100% {bottom:200px; margin-bottom:  500px; margin-left:  90%}
+}
+@-moz-keyframes hot_ballon {
+  0%   {bottom:200px; margin-bottom: -200px; margin-left: -30%}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  30%}
+  100% {bottom:200px; margin-bottom:  500px; margin-left:  90%}
+}
+@-o-keyframes hot_ballon {
+  0%   {bottom:200px; margin-bottom: -200px; margin-left: -30%}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  30%}
+  100% {bottom:200px; margin-bottom:  500px; margin-left:  90%}
+}
 .ballon_02 {
   width: 9%;
   height: 19%;
   position: absolute;
   z-index: -18;
-  background-image: url('images/hot_balloon_02.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/023/original/hot_balloon_02.png?1426402028');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 
   -webkit-animation: hot_ballon_2 70s linear infinite;
-  -moz-animation: hot_ballon_2 70s linear infinite;
-  -o-animation: hot_ballon_2 70s linear infinite;
+  -moz-animation:    hot_ballon_2 70s linear infinite;
+  -o-animation:      hot_ballon_2 70s linear infinite;
 }
 @-webkit-keyframes hot_ballon_2 {
   0%   {bottom:200px; margin-bottom: -300px; margin-left: -10%;}
-  20%  {bottom:200px; margin-bottom: 0px; margin-left: 50%;}
-  100% {bottom:200px; margin-bottom: 400px; margin-left: 90%;}
-}
-@-webkit-keyframes hot_ballon {
-  0%   {bottom:200px; margin-bottom: -200px; margin-left: -30%;}
-  20%  {bottom:200px; margin-bottom: 0px; margin-left: 30%;}
-  100% {bottom:200px; margin-bottom: 500px; margin-left: 90%;}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  50%;}
+  100% {bottom:200px; margin-bottom:  400px; margin-left:  90%;}
 }
 @-moz-keyframes hot_ballon_2 {
-  0%   {bottom:-1400px; margin-bottom: 0vh; margin-left: 40%;}
-  20%  {bottom:-1400px; margin-bottom: 20vh; margin-left: 50%;}
-  100% {bottom:-1400px; margin-bottom: 60vh; margin-left: 100%;}
+  0%   {bottom:200px; margin-bottom: -300px; margin-left: -10%;}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  50%;}
+  100% {bottom:200px; margin-bottom:  400px; margin-left:  90%;}
 }
 @-o-keyframes hot_ballon_2 {
-  0%   {bottom:-1400px; margin-bottom: 0vh; margin-left: 40%;}
-  20%  {bottom:-1400px; margin-bottom: 20vh; margin-left: 50%;}
-  100% {bottom:-1400px; margin-bottom: 60vh; margin-left: 100%;}
+  0%   {bottom:200px; margin-bottom: -300px; margin-left: -10%;}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  50%;}
+  100% {bottom:200px; margin-bottom:  400px; margin-left:  90%;}
 }
-@-moz-keyframes hot_ballon {
-  0%   {bottom:-1400px; margin-bottom: 0vh; margin-left: 20%;}
-  20%  {bottom:-1400px; margin-bottom: 30vh; margin-left: 30%;}
-  100% {bottom:-1400px; margin-bottom: 60vh; margin-left: 100%;}
-}
-@-o-keyframes hot_ballon {
-  0%   {bottom:-1400px; margin-bottom: 0vh; margin-left: 20%;}
-  20%  {bottom:-1400px; margin-bottom: 30vh; margin-left: 30%;}
-  100% {bottom:-1400px; margin-bottom: 60vh; margin-left: 100%;}
-}
-@-webkit-keyframes up_down {
-  0% {margin-top: -330px;}
-  50% {margin-top: -280px;}
-  100% {margin-top: -330px;}
-}
-@-moz-keyframes up_down {
-  0% {margin-top: -580px;}
-  50% {margin-top: -540px;}
-  100% {margin-top: -580px;}
-}
-@-o-keyframes up_down {
-  0% {margin-top: -580px;}
-  50% {margin-top: -540px;}
-  100% {margin-top: -580px;}
-}
-
 @-webkit-keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
+  0% {
+    -ms-transform:     rotate(0deg);
+    -moz-transform:    rotate(0deg);
     -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+    -o-transform:      rotate(0deg);
+    transform:         rotate(0deg);
   }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
+  100% {
+    -ms-transform:     rotate(360deg);
+    -moz-transform:    rotate(360deg);
     -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@keyframes rotating {
-  from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -o-transform:      rotate(360deg);
+    transform:         rotate(360deg);
   }
 }
 .rotating {
   -webkit-animation: rotating 30s linear infinite;
-  -moz-animation: rotating 30s linear infinite;
-  -ms-animation: rotating 30s linear infinite;
-  -o-animation: rotating 30s linear infinite;
-  animation: rotating 30s linear infinite;
+  -moz-animation:    rotating 30s linear infinite;
+  -ms-animation:     rotating 30s linear infinite;
+  -o-animation:      rotating 30s linear infinite;
+  animation:         rotating 30s linear infinite;
 }
 
 .rotating_ball {
@@ -419,9 +348,6 @@ body {
   0% {margin-left: -30%;}
   100% {margin-left: 150%;}
 }
-
-
-/* CLOUDS */
 #clouds{
   max-width: 100%;
   padding: 150px 0;
@@ -432,29 +358,23 @@ body {
   position:relative ;
   z-index: -100;
 }
-
 .cloud {
   width: 200px; height: 60px;
   background: #fff;
-  
   border-radius: 200px;
   -moz-border-radius: 200px;
   -webkit-border-radius: 200px;
-  
   position: relative; 
 }
-
 .cloud:before, .cloud:after {
   content: '';
   position: absolute; 
   background: #fff;
   width: 100px; height: 80px;
   position: absolute; top: -15px; left: 10px;
-  
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
-  
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
   -moz-transform: rotate(30deg);
@@ -473,13 +393,10 @@ body {
 .x2 {
   left: -200px;
   margin-top: 500px;
-
-  
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.6; 
-  
   -webkit-animation: moveclouds 25s linear infinite;
   -moz-animation: moveclouds 25s linear infinite;
   -o-animation: moveclouds 25s linear infinite;
@@ -490,93 +407,76 @@ body {
   -moz-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.8; 
-  
   -webkit-animation: moveclouds 12s linear infinite;
   -moz-animation: moveclouds 12s linear infinite;
   -o-animation: moveclouds 12s linear infinite;
 }
-
 .x4 {
   left: -200px; top: -250px;
-  
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
   transform: scale(0.75);
   opacity: 0.75; 
-  
   -webkit-animation: moveclouds 14s linear infinite;
   -moz-animation: moveclouds 14s linear infinite;
   -o-animation: moveclouds 14s linear infinite;
 }
-
 .x5 {
   left: -200px; top: -150px;
-
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.9;
-  
   -webkit-animation: moveclouds 14s linear infinite;
   -moz-animation: moveclouds 14s linear infinite;
   -o-animation: moveclouds 14s linear infinite;
 }
 .x6 {
   left: -200px; top: -400px;
-
   -webkit-transform: scale(0.7);
   -moz-transform: scale(0.7);
   transform: scale(0.7);
   opacity: 0.7; 
-  
   -webkit-animation: moveclouds 28s linear infinite;
   -moz-animation: moveclouds 28s linear infinite;
   -o-animation: moveclouds 28s linear infinite;
 }
 .x7 {
   left: -200px; top: -280px;
-
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   transform: scale(0.8);
-  opacity: 0.8;  
-  
+  opacity: 0.8;    
   -webkit-animation: moveclouds 22s linear infinite;
   -moz-animation: moveclouds 22s linear infinite;
   -o-animation: moveclouds 22s linear infinite;
 }
 .x8 {
   left: -200px; top: -580px;
-
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
   transform: scale(0.9);
-  opacity: 0.8;  
-  
+  opacity: 0.8;    
   -webkit-animation: moveclouds 18s linear infinite;
   -moz-animation: moveclouds 18s linear infinite;
   -o-animation: moveclouds 18s linear infinite;
 }
 .x9 {
   left: -200px; top: -980px;
-
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
   transform: scale(0.9);
   opacity: 0.8; 
-  
   -webkit-animation: moveclouds 7s linear infinite;
   -moz-animation: moveclouds 7s linear infinite;
   -o-animation: moveclouds 7s linear infinite;
 }
 .x10 {
   left: -200px; top: -1180px;
-  
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.4; 
-  
   -webkit-animation: moveclouds 22s linear infinite;
   -moz-animation: moveclouds 22s linear infinite;
   -o-animation: moveclouds 22s linear infinite;
@@ -607,7 +507,7 @@ body {
 }
 .airplane-01 {
   height: 173px;
-  background-image: url('images/airplane_long_banner_173.png');
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/024/original/airplane_long_banner_173.png?1426402067');
   background-position: center left;
   background-repeat: no-repeat;
   position: relative;
@@ -615,50 +515,41 @@ body {
   float: left;
   clear: right;
   margin-top: 2400px;
-
   -webkit-animation: airplane-01 25s linear infinite;
   -moz-animation:    airplane-01 25s linear infinite;
   -o-animation:      airplane-01 25s linear infinite;
-}
-@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
- .airplane-01 {
-  margin-top: 3540px;
-  -webkit-animation: airplane-01 20s linear infinite;
-  -moz-animation:    airplane-01 20s linear infinite;
-  -o-animation:      airplane-01 20s linear infinite;
- } 
-  @-webkit-keyframes moving_the_sky {
-  50%   {margin-top:   0px}
-  100% {margin-top:   -4000px}
-  }
-  .leyend {
-    margin-top: 40%;
-  }
-  .second_line {
-    margin-top: 40%;
-  }
 }
 @-webkit-keyframes airplane-01 {
   30%  {margin-left:   100%; width:   0%;}
   100% {margin-left:  -200%; width: 300%;}
 }
 @-moz-keyframes airplane-01 {
-  10%  {margin-left:   100%; width:   0%;}
-  100% {margin-left:  -400%; width: 500%;}
+  30%  {margin-left:   100%; width:   0%;}
+  100% {margin-left:  -200%; width: 300%;}
 }
 @-o-keyframes airplane-01 {
-  10%  {margin-left:   100%; width:   0%;}
-  100% {margin-left:  -400%; width: 500%;}
+  30%  {margin-left:   100%; width:   0%;}
+  100% {margin-left:  -200%; width: 300%;}
 }
 .move_the_sky {
   -webkit-animation: moving_the_sky 6s linear forwards;
-  -moz-animation:    moving_the_sky 6s linear;
-  -o-animation:      moving_the_sky 6s linear;
+  -moz-animation:    moving_the_sky 6s linear forwards;
+  -o-animation:      moving_the_sky 6s linear forwards;
 }
 @-webkit-keyframes moving_the_sky {
-  0%   {margin-top:     0px}
-  80%  {margin-top:     0px}
-  100% {margin-top: -2300px}
+  0%   {margin-top:     0px;}
+  80%  {margin-top:     0px;}
+  100% {margin-top: -2300px;}
+}
+@-moz-keyframes moving_the_sky {
+  0%   {margin-top:     0px;}
+  80%  {margin-top:     0px;}
+  100% {margin-top: -2300px;}
+}
+@-o-keyframes moving_the_sky {
+  0%   {margin-top:     0px;}
+  80%  {margin-top:     0px;}
+  100% {margin-top: -2300px;}
 }
 .leyend {
   width: 100%;
@@ -684,7 +575,49 @@ body {
   -o-animation:      showing_text 3s linear forwards;
 }
 @-webkit-keyframes showing_text {
-  0%   {opacity: 0}
-  70%  {opacity: 0}
-  100% {opacity: 1}
+  0%   {opacity: 0;}
+  70%  {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-moz-keyframes showing_text {
+  0%   {opacity: 0;}
+  70%  {opacity: 0;}
+  100% {opacity: 1;}
+}
+@-o-keyframes showing_text {
+  0%   {opacity: 0;}
+  70%  {opacity: 0;}
+  100% {opacity: 1;}
+}
+@media only screen and (max-device-width: 414px){
+  .airplane-01 {
+    margin-top: 3540px;
+    height: 250px;
+    background-image: url('http://h6c5.com/system/pictures/avatars/000/000/025/original/airplane_long_banner_250.png?1426450323');
+    -webkit-animation: airplane-01 20s linear infinite;
+    -moz-animation:    airplane-01 20s linear infinite;
+    -o-animation:      airplane-01 20s linear infinite;
+  } 
+  @-webkit-keyframes airplane-01 {
+  30%  {margin-left:   100%; width:   0%;}
+  100% {margin-left:  -300%; width: 400%;}
+}
+  @-webkit-keyframes moving_the_sky {
+    50%   {margin-top:       0px}
+    100%  {margin-top:   -3150px}
+  }
+  @-moz-keyframes moving_the_sky {
+    50%   {margin-top:       0px}
+    100%  {margin-top:   -3150px}
+  }
+  @-o-keyframes moving_the_sky {
+    50%   {margin-top:       0px}
+    100%  {margin-top:   -3150px}
+  }
+  .leyend {
+    margin-top: 40%;
+  }
+  .second_line {
+    margin-top: 40%;
+  }
 }
