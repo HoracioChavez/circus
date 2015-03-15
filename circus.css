@@ -85,7 +85,7 @@ body {
 }
 .bush {
   width: 100%;
-  height: 100PX;
+  height: 100px;
   margin-top: -170px;
   position: relative;
   bottom:0;
@@ -179,47 +179,36 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-.horse_green {
+.horses {
   width: 120px;
   height: 150px;
-  margin-left: 30%;
   position: relative;
   z-index: 2;
-  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/019/original/carousel_horse_green.png?1426401884');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   float:left;
+}
+.horse_green {
+  margin-left: 30%;
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/019/original/carousel_horse_green.png?1426401884');
+
   -webkit-animation: up_down 4s linear infinite;
   -moz-animation: up_down 4s linear infinite;
   -o-animation: up_down 4s linear infinite;
 }
 .horse_orange {
-  width: 120px;
-  height: 150px;
   margin-left: 33%;
-  position: relative;
-  z-index: 2;
   background-image: url('http://h6c5.com/system/pictures/avatars/000/000/020/original/carousel_horse_orange.png?1426401940');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  float:left;
+  
   -webkit-animation: up_down 2s linear infinite;
   -moz-animation: up_down 2s linear infinite;
   -o-animation: up_down 2s linear infinite;
 }
 .horse_brown {
-  width: 120px;
-  height: 150px;
   margin-left: 36%;
-  position: relative;
-  z-index: 2;
   background-image: url('http://h6c5.com/system/pictures/avatars/000/000/021/original/carousel_horse_brown.png?1426401964');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  float: left;
+  
   -webkit-animation: up_down 3s linear infinite;
   -moz-animation: up_down 3s linear infinite;
   -o-animation: up_down 3s linear infinite;
@@ -239,15 +228,17 @@ body {
   50%  {margin-top: -280px;}
   100% {margin-top: -330px;}
 }
-.ballon_01 {
-  width: 5%;
-  height: 15%;
+.balloons {
   position: absolute;
-  z-index: -60;
-  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/022/original/hot_balloon_01.png?1426402005');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+.ballon_01 {
+  width: 5%;
+  height: 15%;
+  z-index: -60;
+  background-image: url('http://h6c5.com/system/pictures/avatars/000/000/022/original/hot_balloon_01.png?1426402005');
   opacity: .9;
 
   -webkit-animation: hot_ballon 20s linear infinite;
@@ -272,31 +263,27 @@ body {
 .ballon_02 {
   width: 9%;
   height: 19%;
-  position: absolute;
   z-index: -18;
   background-image: url('http://h6c5.com/system/pictures/avatars/000/000/023/original/hot_balloon_02.png?1426402028');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 
-  -webkit-animation: hot_ballon_2 70s linear infinite;
-  -moz-animation:    hot_ballon_2 70s linear infinite;
-  -o-animation:      hot_ballon_2 70s linear infinite;
+  -webkit-animation: hot_ballon_2 45s linear infinite;
+  -moz-animation:    hot_ballon_2 45s linear infinite;
+  -o-animation:      hot_ballon_2 45s linear infinite;
 }
 @-webkit-keyframes hot_ballon_2 {
   0%   {bottom:200px; margin-bottom: -300px; margin-left: -10%;}
-  20%  {bottom:200px; margin-bottom:    0px; margin-left:  50%;}
-  100% {bottom:200px; margin-bottom:  400px; margin-left:  90%;}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  40%;}
+  100% {bottom:200px; margin-bottom:  500px; margin-left:  80%;}
 }
 @-moz-keyframes hot_ballon_2 {
   0%   {bottom:200px; margin-bottom: -300px; margin-left: -10%;}
-  20%  {bottom:200px; margin-bottom:    0px; margin-left:  50%;}
-  100% {bottom:200px; margin-bottom:  400px; margin-left:  90%;}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  40%;}
+  100% {bottom:200px; margin-bottom:  500px; margin-left:  80%;}
 }
 @-o-keyframes hot_ballon_2 {
   0%   {bottom:200px; margin-bottom: -300px; margin-left: -10%;}
-  20%  {bottom:200px; margin-bottom:    0px; margin-left:  50%;}
-  100% {bottom:200px; margin-bottom:  400px; margin-left:  90%;}
+  20%  {bottom:200px; margin-bottom:    0px; margin-left:  40%;}
+  100% {bottom:200px; margin-bottom:  500px; margin-left:  80%;}
 }
 @-webkit-keyframes rotating {
   0% {
@@ -322,32 +309,6 @@ body {
   animation:         rotating 30s linear infinite;
 }
 
-.rotating_ball {
-  -webkit-animation: rotating .8s linear infinite;
-  -moz-animation: rotating .8s linear infinite;
-  -ms-animation: rotating .8s linear infinite;
-  -o-animation: rotating .8s linear infinite;
-  animation: rotating .8s linear infinite;
-}
-.move_the_ball {
-  -webkit-animation: moving_the_ball 20s linear infinite;
-  -moz-animation: moving_the_ball 20s linear infinite;
-  -ms-animation: moving_the_ball 20s linear infinite;
-  -o-animation: moving_the_ball 20s linear infinite;
-  animation: moving_the_ball 20s linear infinite;
-}
-@-webkit-keyframes moving_the_ball {
-  0% {margin-left: -30%;}
-  100% {margin-left: 150%;}
-}
-@-moz-keyframes moving_the_ball {
-  0% {margin-left: -30%;}
-  100% {margin-left: 150%;}
-}
-@-o-keyframes moving_the_ball {
-  0% {margin-left: -30%;}
-  100% {margin-left: 150%;}
-}
 #clouds{
   max-width: 100%;
   padding: 150px 0;
@@ -490,18 +451,6 @@ body {
   100% {margin-left: 100%;}
 }
 @-o-keyframes moveclouds {
-  0% {margin-left: -50%;}
-  100% {margin-left: 100%;}
-}
-@-webkit-keyframes airplane {
-  0% {margin-left: -450%;}
-  100% {margin-left: 100%;}
-}
-@-moz-keyframes airplane {
-  0% {margin-left: -50%;}
-  100% {margin-left: 100%;}
-}
-@-o-keyframes airplane {
   0% {margin-left: -50%;}
   100% {margin-left: 100%;}
 }
