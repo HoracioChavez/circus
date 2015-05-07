@@ -2,8 +2,7 @@
 
 Exploring animation with CSS3 (a.k.a. my baby's b-day party invitation).
 
-![circus animated gif](http://h6c5.com/system/pictures/avatars/000/000/004/original/circus.gif?1426187751
-)
+![circus animated gif](http://h6c5.com/system/pictures/avatars/000/000/004/original/circus.gif?1426187751)
 
 **This is work in progress.**   
 Working on a thousand tiny details. 
